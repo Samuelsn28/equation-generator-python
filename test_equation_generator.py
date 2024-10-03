@@ -20,6 +20,9 @@ class TestEquationGenerator(unittest.TestCase):
                                                          allow_repeted_roots=False)
         self.assertIsInstance(eg, EquationGenerator)
 
+        print(result_equation)
+        print(result_equation.roots)
+
 
 if __name__ == '__main__':
     unittest.main()
